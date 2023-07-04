@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color:#FF9A4B
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  margin:50px auto;
+  display: flex;
+  justify-content:center;
+  
+}
+
+.main1 {
+  position: relative;
+  width: 300px;
+  height: auto;
+  margin: 0px 15px ;
+  background-color: #EEEEEE
+  
+}
+
+
+
+.font1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto; 
+  height: auto;
+  color:#FFF;
+   font-size:5px;
+  text-align: center; 
+  background-color: #FF9A4B
+}
+
+
+.photo1 {
+  width: 280px; 
+  height: 150px; 
+  margin: 10px;
+  background-image: url(img/flow01.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+.main2 {
+  position: relative;
+  width: 300px;
+  height: auto;
+  margin: 0px 15px ;
+  background-color: #EEEEEE
+  
+}
+
+
+
+.font2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto; 
+  height: auto;
+  color:#FFF;
+   font-size:5px;
+  text-align: center; 
+  background-color: #FF9A4B
+}
+
+
+.photo2 {
+  width: 280px; 
+  height: 150px; 
+  margin: 10px;
+  background-image: url(img/flow02.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+.main3 {
+  position: relative;
+  width: 300px;
+  height: auto;
+  margin: 0px 15px ;
+  background-color: #EEEEEE
+  
+}
+
+
+
+.font3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto; 
+  height: auto;
+  color:#FFF;
+   font-size:5px;
+  text-align: center; 
+  background-color: #FF9A4B
+}
+
+
+.photo3 {
+  width: 280px; 
+  height: 150px; 
+  margin: 10px;
+  background-image: url(img/flow03.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+.title1 {
+  width: 100%;
+  height: auto;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.text1 {
+  width: 100%;
+  height: auto;
+  padding: 0px 10px 10px;
+  font-size: 12px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color:#AAAAAA
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .main {
+    display:block;
+  }
+  
+  .main1 {
+    margin-bottom: 20px;
+  }
+  
+   .main2 {
+    margin-bottom: 20px;
+  }
+  
+  .photo1 {
+    width:90%;
+  }
+  .photo2 {
+    width:90%;
+  }
+  .photo3 {
+    width:90%;
+  }
